@@ -5,6 +5,7 @@ package engsoft.jogo.patos;
 public class Pato_Ruivo extends Pato implements Padrao_Grasnar {
 
 
+	// A delegação trouxe o comportamento de voar com asas à sub-classe
 	public Pato_Ruivo()
 	{
 		setComportamento(new Voaveis_Asa());		
@@ -15,6 +16,7 @@ public class Pato_Ruivo extends Pato implements Padrao_Grasnar {
 		return "Eu sou o Pato Ruivo." ;
 	}
 
+	// Implementação do método abstrato da interface Padrao_Grasnar.java
 	public String grasnar() {
 		// TODO Auto-generated method stub
 		return 	"Que-Que.";

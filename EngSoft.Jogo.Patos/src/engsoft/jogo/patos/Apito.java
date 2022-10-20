@@ -1,10 +1,6 @@
 package engsoft.jogo.patos;
 
-/**
- * Classe de Apito que pode efetuar um grasno
- * Implementação da Interface
- * @author rodrigo.vieira
- */
+// Classe que implementa o mÃ©todo grasnar a partir da interface Padrao_Grasnar.java
 public class Apito implements Padrao_Grasnar{
 
 	public String grasnar()
