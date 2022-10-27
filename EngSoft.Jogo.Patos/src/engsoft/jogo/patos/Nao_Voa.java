@@ -1,5 +1,6 @@
 package engsoft.jogo.patos;
 
+// Classe que implementa os mÃ©todos voar e getVelocidade a partir da interface Padrao_Voaveis.java
 public class Nao_Voa implements Padrao_Voaveis {
 
 	
@@ -9,7 +10,7 @@ public class Nao_Voa implements Padrao_Voaveis {
 	}
 	
 	public String voar() {
-		return "Esse pato não Voa. Velocidade: " + getVelocidade();
+		return "Esse pato nï¿½o Voa. Velocidade: " + getVelocidade();
 	}
 
 	public double getVelocidade() {

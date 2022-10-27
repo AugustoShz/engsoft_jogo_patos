@@ -1,5 +1,6 @@
 package engsoft.jogo.patos;
 
+// Classe que implementa o mÃ©todo voar e getVelocidade a partir da interface Padrao_Voaveis.java
 public class Voaveis_Asa implements Padrao_Voaveis {
 
 	private double velocidade;
@@ -9,7 +10,7 @@ public class Voaveis_Asa implements Padrao_Voaveis {
 	}
 
 	public String voar() {
-		return "Voando como um pássaro que voa. Velocidade: "
+		return "Voando como um pï¿½ssaro que voa. Velocidade: "
 				+ getVelocidade();
 	}
 
